@@ -1,0 +1,32 @@
+{
+  "name": "EduTechN3-B5",
+  "version": "0.1.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git://https://github.com/a7medsamirf/EduTechN3-B5"
+  },
+  "author": "Ahmed Samir",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^2.9.0",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/tailwindcss": "^6.10.1",
+    "autoprefixer": "^10.4.16",
+    "nuxt": "^3.8.2",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6"
+  },
+  "dependencies": {
+    "sass": "^1.58.1",
+    "sass-loader": "^13.2.0"
+  }
+}
