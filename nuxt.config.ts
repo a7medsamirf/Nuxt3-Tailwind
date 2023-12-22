@@ -37,6 +37,8 @@ export default defineNuxtConfig({
    '~/assets/scss/app.scss',
  
   ],
+  
+  plugins: ["~/plugins/preline.client.ts"],
 
 /*   build: {
     transpile: ["@heroicons/vue", "@headlessui/vue"],
