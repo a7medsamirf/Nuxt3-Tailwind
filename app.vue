@@ -2,11 +2,12 @@
 
 </script>
 <template>
+        <NuxtLoadingIndicator /> 
 <NuxtLayout class="bg-white/95 dark:bg-gray-900">
-    <div >
-      <NuxtLoadingIndicator /> 
-      <NuxtPage />
-    </div>
+<div>
+  <NuxtPage />
+</div>
+
   </NuxtLayout>
 </template>
 

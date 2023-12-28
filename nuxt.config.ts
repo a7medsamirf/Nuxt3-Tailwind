@@ -38,7 +38,10 @@ export default defineNuxtConfig({
  
   ],
   
-  plugins: ["~/plugins/preline.client.ts"],
+  plugins: [
+      "~/plugins/i18n.config.js",
+      "~/plugins/preline.client.ts"
+],
 
 /*   build: {
     transpile: ["@heroicons/vue", "@headlessui/vue"],
@@ -47,9 +50,45 @@ export default defineNuxtConfig({
   modules: [
         '@nuxt/content',
         '@nuxtjs/tailwindcss',
-        '@nuxtjs/color-mode'
+        '@nuxtjs/color-mode',
+        '@nuxtjs/i18n',
     ],
 
+    i18n: {
+      /* module options */
+/*       seo: true, */
+      lazy: true,
+      langDir: "locales",
+      strategy: "prefix_except_default",
+      locales: [
+        {
+          code: "en",
+          iso: "en-US",
+          name: "English(US)",
+          file: "en-US.json",
+          dir: 'ltr',
+          icon: 'flag-en.svg'
+        },
+        {
+          code: 'ar',
+          iso: 'ar-AR',
+          name: 'Arabic(EG)',
+          file: 'ar-EG.json',
+          dir: 'rtl',
+          icon: 'flag-ar.svg'
+        },
+      ],
+      defaultLocale: "en",
+/*       vueI18n: "./i18n.config.ts", */
+      detectBrowserLanguage: {
+        useCookie: true,
+        cookieKey: 'i18n_redirected',
+        alwaysRedirect: true
+      },
+    },
+
+
+    
  // module::color-mode
  colorMode: {
   classSuffix: '',

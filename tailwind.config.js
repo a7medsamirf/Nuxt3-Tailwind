@@ -68,6 +68,9 @@ export default {
   },
   darkMode: "class",
 /*   darkMode: ['class', '[data-theme="dark"]'],  */
-  plugins: [   require('preline/plugin'), ],
+  plugins: [  
+     require('preline/plugin'),
+     require("@tailwindcss/typography")
+     ],
 }
 

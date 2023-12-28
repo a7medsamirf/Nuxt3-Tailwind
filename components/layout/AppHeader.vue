@@ -31,19 +31,19 @@
         class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
         <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
           <!--         <a class="font-medium text-blue-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" href="#" aria-current="page">Landing</a>
- -->
-
-          <li class="nav-item dropdown px-2" v-for="(link, i) in links" :key="i">
-            <NuxtLink
+ --><!-- 
+        <div class="nav-item dropdown px-2" v-for="(link, i) in links" :key="i">
+          <NuxtLink
               class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-              :to="link.to">
+            :to="localePath('link.to')">
               {{ link.title }}
             </NuxtLink>
-          </li>
-
-
+        </div> -->
+ 
+        <NavLinks />
 
           <ThemeSwitcher />
+          <LangSwitcher />
         </div>
       </div>
     </nav>
@@ -51,6 +51,9 @@
 </template>
 
 <script>
+
+
+/* const localePath = useLocalePath()
   export default {
     name: "AppHeader",
     data() {
@@ -67,8 +70,12 @@
             title: "Products",
             to: "/products"
           },
+          {
+            title: "Lang",
+            to: "/lang"
+          },
         ],
       };
     },
-  };
+  }; */
 </script>
