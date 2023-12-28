@@ -25,7 +25,7 @@ const htmlAttrs = computed(() => head.value.htmlAttrs!)
       <AppHeader />
 
 
-      <main class="mx-auto max-w-[1200px] px-4 py-6">
+      <main class="container mx-auto px-4 py-6">
 
         <slot />
       </main>
