@@ -9,7 +9,7 @@ const availableLocales = computed(() => {
 
 <template>
 
-  <NuxtLink
+  <NuxtLink class="text-gray-600 dark:text-gray-400"
    v-for="locale in availableLocales"
     :key="locale.code" 
     @click.prevent.stop="setLocale(locale.code)"

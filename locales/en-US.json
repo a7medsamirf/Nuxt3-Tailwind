@@ -1,11 +1,15 @@
 {
   "nav": {
     "Home": "Home",
+    "HomeV1": "Home V1",
+    "HomeV2": "Home V2",
+    "Playbook": "Playbook",
+    "Jobs": "Jobs",
     "Products": "Products",
     "Test": "Test",
     "Blog": "Blog"
   },
-  "app_title": "Andorable",
+  "app_title": "Superdao",
   "home_title": "Home"
 
   }

@@ -5,8 +5,20 @@ const localPath = useLocalePath();
 <template>
 <div>
 
-  <h1>{{ $t("home_title") }}</h1>
+  <Hero />
 
+
+  <h1 class="gap-10 text-gray-600 dark:text-gray-400">{{ $t("home_title") }}</h1>
+
+
+
+  <button type="button" class="py-3 px-10 inline-flex items-center m-10 text-sm font-semibold rounded text-white bg-gradient-to-b from-[#FFD600] to-[#FFB800] shadow-[0px_9px_44px_0px_#ffd60030]">
+  Button
+</button>
+
+<button type="button" class="py-3 px-10 inline-flex items-center m-10 text-sm font-semibold rounded text-white bg-gradient-to-r from-orange-400 to-orange-500">
+  Button
+</button>
 
 <div class="container mx-auto">
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-5 ">

@@ -24,10 +24,11 @@ Style Index
 
 /*---------- [1. Basic Setup ] ---------- */
 
-body{
-  /*   font-family: 'Cairo', sans-serif; */
+/* body{
+  font-family: 'Cairo', sans-serif; 
     font-family: 'Almarai', sans-serif;
-  }
+  } */
+
   .py-10{
     padding: 100px 0;
   }
@@ -72,15 +73,3 @@ body{
   }
   
   
-  
-  
-  
-.ThemeSwitcher-btn,
-  .dark,
-  .light{
-    transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-}

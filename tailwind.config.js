@@ -15,9 +15,13 @@ export default {
     extend: {
       boxShadow: {
         '3xl': '0 14px 22px -9px rgba(187,203,216,.47)',
+        'Warning': '0px 9px 44px 0px rgba(255, 214, 0, 0.19)',
+      },
+      backgroundImage: {
+        'hero-pattern': "url('./public/img/BGStars.png')",
       },
       colors: {
-         dark: "#090C13",
+        'dark': "#10151A",
         'bubble-gum': '#EF0178',
         'custom-color': '#5243C2',
         'color-dark': '#1D1B1B',
@@ -61,9 +65,10 @@ export default {
         },
       },
       fontFamily: {
-        'Montserrat': ['Montserrat', 'sans-serif'],
-         body: ['Montserrat', 'sans-serif'],
-       },
+        ARFont: ['"Almarai"', "sans-serif"],
+        ENFont: ['"PT Mono"', "sans-serif"],
+/*         body: ['Almarai', 'sans-serif'],
+ */      },
     },
   },
   darkMode: "class",

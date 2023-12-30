@@ -21,11 +21,11 @@ const htmlAttrs = computed(() => head.value.htmlAttrs!)
         />
       </template> 
     </Head>
-    <Body class="bg-white/95 dark:bg-gray-900">
+    <Body class="bg-white/95 dark:bg-dark">
       <AppHeader />
 
 
-      <main class="container mx-auto px-4 py-6">
+      <main>
 
         <slot />
       </main>
