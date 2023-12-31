@@ -7,10 +7,12 @@
         <section
             class="h-screen bg-white dark:bg-gray-900 py-40 bg-cover bg-no-repeat dark:bg-[url('/public/img/BGStars.png')]">
             <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+            
+            
                 <h1
                     class="flex justify-center items-center mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white relative">
-                    <img src="/public/img/gradient-Bg.png" class="w-50 absolute z-n1  top-10" alt="">
-                    
+                    <img src="/public/img/gradient-Bg.png" class="img-gradient w-50 absolute z-[-1] block top-10" alt="">
+
                     {{ $t('HeroSection.title') }}
                 </h1>
                 <p class="mb-8 m-5 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
@@ -31,3 +33,10 @@
     </div>
 
 </template>
+
+<style>
+.img-gradient{
+    z-index: -1;
+}
+
+</style>
