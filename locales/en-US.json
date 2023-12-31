@@ -9,6 +9,11 @@
     "Test": "Test",
     "Blog": "Blog"
   },
+  "HeroSection": {
+    "title": "Start a DAO in seconds",
+    "subtitle": "An easy step-by-step process to start, manage, and grow a decentralized autonomous organization",
+    "button": "Get early access"
+  },
   "app_title": "Superdao",
   "home_title": "Home"
 

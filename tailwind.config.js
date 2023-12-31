@@ -20,6 +20,14 @@ export default {
       backgroundImage: {
         'hero-pattern': "url('./public/img/BGStars.png')",
       },
+      zIndex: {
+        'auto': 'auto',
+        'n2': -2,
+        'n1': -1,
+        '0': 0,
+        '1': 1,
+        '2': 2
+      },
       colors: {
         'dark': "#10151A",
         'bubble-gum': '#EF0178',

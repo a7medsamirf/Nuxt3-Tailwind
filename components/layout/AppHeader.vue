@@ -30,6 +30,7 @@ const localePath = useLocalePath()
 </script>
 <template>
 
+
           <header
     class="relative flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full text-sm py-4 ">
     <div class="container mx-auto">
@@ -66,9 +67,9 @@ const localePath = useLocalePath()
         <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
 
         <NavLinks />
+        <LangSwitcher />
 
           <ThemeSwitcher />
-          <LangSwitcher />
         </div>
       </div>
     </nav>

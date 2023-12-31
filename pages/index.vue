@@ -12,9 +12,7 @@ const localPath = useLocalePath();
 
 
 
-  <button type="button" class="py-3 px-10 inline-flex items-center m-10 text-sm font-semibold rounded text-white bg-gradient-to-b from-[#FFD600] to-[#FFB800] shadow-[0px_9px_44px_0px_#ffd60030]">
-  Button
-</button>
+
 
 <button type="button" class="py-3 px-10 inline-flex items-center m-10 text-sm font-semibold rounded text-white bg-gradient-to-r from-orange-400 to-orange-500">
   Button
