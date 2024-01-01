@@ -17,14 +17,14 @@ export default {
         '3xl': '0 14px 22px -9px rgba(187,203,216,.47)',
         'Warning': '0px 9px 44px 0px rgba(255, 214, 0, 0.19)',
       },
-      backgroundImage: {
+/*       backgroundImage: {
         'hero-pattern': "url('./public/img/BGStars.png')",
-      },
-/*       zIndex: {
+      }, */
+   zIndex: {
         'auto': 'auto',
         'n2': -2,
         'n1': -1,
-      }, */
+      }, 
       colors: {
         'dark': "#10151A",
         'bubble-gum': '#EF0178',

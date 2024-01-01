@@ -1,14 +1,16 @@
-<script setup lang="ts">
-
+<script setup>
+useSeoMeta({
+  title: "Meet Nuxt",
+  description: "The Intuitive Vue Framework.",
+});
 </script>
 <template>
-<NuxtLayout>
-  <NuxtLoadingIndicator />
-  <NuxtPage />
-  </NuxtLayout>
+  <div id="app">
+    <NuxtLayout>
+      <NuxtLoadingIndicator />
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
 </template>
 
-<style>
-
-</style>
-
+<style></style>

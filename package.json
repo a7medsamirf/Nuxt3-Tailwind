@@ -29,7 +29,6 @@
   },
   "dependencies": {
     "@vueuse/motion": "^2.0.0",
-    "flowbite": "^2.2.1",
     "preline": "^2.0.2",
     "sass": "^1.58.1",
     "sass-loader": "^13.2.0"

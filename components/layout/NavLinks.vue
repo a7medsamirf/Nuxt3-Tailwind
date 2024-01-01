@@ -6,7 +6,7 @@ const links = [
            { name: 'nav.HomeV1', to: '/', },
            { name: 'nav.HomeV2', to: '/', },
         ],
-      },
+    },
     { name: 'nav.Home', to: '/', },
     { name: 'nav.Playbook', to: '', },
     { name: 'nav.Jobs', to: '', },
