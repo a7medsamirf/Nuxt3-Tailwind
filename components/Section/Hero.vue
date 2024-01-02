@@ -1,5 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
 
+</script>
 <template>
   <div>
     <section class="h-screen bg-white relative py-40 dark:bg-[url('/img/BGStars.png')] ">
