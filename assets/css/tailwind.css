@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .hover-transition {
+    transition: all 0.3s ease-in-out;
+  }
+}
+
 @layer base {
     *[dir='ltr'] {
         @apply font-ENFont !important;
@@ -14,7 +20,6 @@
       }
 
   }
-
 
 /*  @apply animate slide-in;
 .slide-in {

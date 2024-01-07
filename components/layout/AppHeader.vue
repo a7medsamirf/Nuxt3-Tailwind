@@ -33,7 +33,7 @@ const localePath = useLocalePath()
 
           <header
     class="relative flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full text-sm py-4 ">
-    <div class="container mx-auto">
+    <div class="container sm:w-[700px] md:w-full mx-auto">
     <nav class="w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
       <div class="flex items-center justify-between">
 
