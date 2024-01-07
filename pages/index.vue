@@ -14,8 +14,18 @@ const description = ref("My amazing site.");
     <Hero />
 
     <Superpowers />
+    <Features />
 
-    <div class="container mx-auto">
+
+<!-- 
+    <Title
+          :head="$t('contacts.Get-In-Touch')"
+          :desc="$t('contacts.Send-Us-Message')"
+          align="center"
+          color="primary"
+        /> -->
+
+<!--     <div class="container mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-5">
         <div
           class="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-slate-900 dark:border-gray-700 dark:shadow-slate-700/[.7]"
@@ -113,6 +123,6 @@ const description = ref("My amazing site.");
           5
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
