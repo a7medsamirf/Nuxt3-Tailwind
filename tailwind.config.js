@@ -27,7 +27,7 @@ export default {
       }, 
       colors: {
         'dark': "#10151A",
-        'bubble-gum': '#EF0178',
+        'primary-color': '#FFD600',
         'custom-color': '#5243C2',
         'color-dark': '#1D1B1B',
         'section-color': "#f2fbfc",
