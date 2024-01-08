@@ -8,7 +8,9 @@
     "Products": "Products",
     "Test": "Test",
     "Blog": "Blog",
-    "Directory": "Directory"
+    "Directory": "Directory",
+    "About":"About Us",
+    "Roadmapclub":"Roadmap club"
   },
   "HeroSection": {
     "title": "Start a DAO in seconds",

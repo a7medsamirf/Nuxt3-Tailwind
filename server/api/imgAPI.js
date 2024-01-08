@@ -9,7 +9,11 @@ const imgAPI = {
       '/img/feature/Icon_nonprof.svg',
       '/img/feature/Icon_prof.svg',
       '/img/feature/Icon_Corpor.svg',
-
+    ],
+    Socialimg:[
+      '/img/svg/email.svg',
+      '/img/svg/telegram.svg',
+      '/img/svg/twitter.svg',
     ]
 
   }

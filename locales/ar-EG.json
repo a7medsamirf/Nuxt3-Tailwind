@@ -8,7 +8,9 @@
     "Products": "المنتجات",
     "Test": "تجريبى",
     "Blog": "المقالات",
-    "Directory": "الدليل"
+    "Directory": "الدليل",
+    "About":"معلومات عنا",
+    "Roadmapclub":"نادي خارطة الطريق"
   },
   "HeroSection": {
     "title": "ابدأ سوبرداو في ثوانٍ",
