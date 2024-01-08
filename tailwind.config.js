@@ -26,6 +26,8 @@ export default {
         'n1': -1,
       }, 
       colors: {
+        'dark-border': "#2A3744",
+        'dark-card': "#161D24",
         'dark': "#10151A",
         'primary-color': '#FFD600',
         'custom-color': '#5243C2',

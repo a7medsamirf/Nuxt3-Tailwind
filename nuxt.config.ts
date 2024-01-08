@@ -7,6 +7,8 @@ export default defineNuxtConfig({
       title: 'Superdao',
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
+      link: [{ rel: 'icon', type: 'image/png', href: "/public/Logo-Full.ico" }],
+
       meta: [
         // <meta name="description" content="My amazing site">
         { charset: 'utf-8' },

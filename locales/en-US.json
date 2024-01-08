@@ -16,9 +16,27 @@
     "button": "Get early access"
   },
   "features": {
+    "title": "Change every industry sector",
     "DeFi": "DeFi",
     "Investment": "Investment",
-    "Creators": "Creators"
+    "Creators": "Creators",
+    "Metaverse": "Metaverse",
+    "Communities": "Communities",
+    "Startups": "Startups",
+    "Nonprofits": "Nonprofits",
+    "Professionals": "Professionals",
+    "Corporations": "Corporations",
+
+    "Decentralize-governance": "Decentralize governance",
+    "Scout-and-pick-together": "Scout and pick together",
+    "Remove-middlemen": "Remove middlemen, own your work",
+    "Build-virtual": "Build virtual goods businesses",
+    "Build-shared": "Build shared resources",
+    "Reward-early": "Reward early adopters",
+    "Raise-funds": "Raise funds, allocate resources",
+    "Form-freelancer": "Form freelancer guilds",
+    "Reinvent-loyalty": "Reinvent loyalty programs"
+
   },
   "app_title": "Superdao",
   "home_title": "Home"

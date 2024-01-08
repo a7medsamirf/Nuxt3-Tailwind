@@ -16,9 +16,26 @@
     "button": "الحصول على الوصول المبكر "
   },
   "features": {
+    "title": "تغيير كل قطاع الصناعة ",
     "DeFi": "التمويل اللامركزي",
     "Investment": "استثمار",
-    "Creators": "المبدعين"
+    "Creators": "المبدعين",
+    "Metaverse": "ميتافيرس",
+    "Communities": "مجتمعات",
+    "Startups": "الشركات الناشئة",
+    "Nonprofits": "المنظمات غير الربحية",
+    "Professionals": "المهنيين",
+    "Corporations": "الشركات",
+    "Decentralize-governance": "الحكم اللامركزي",
+    "Scout-and-pick-together": "الكشفية واختيار معا",
+    "Remove-middlemen": "أزل الوسطاء، امتلك عملك",
+    "Build-virtual": "بناء شركات السلع الافتراضية",
+    "Build-shared": "بناء الموارد المشتركة",
+    "Reward-early": "مكافأة المتبنين الأوائل",
+    "Raise-funds": "جمع الأموال، وتخصيص الموارد",
+    "Form-freelancer": "تشكيل النقابات المستقلة",
+    "Reinvent-loyalty": "إعادة اختراع برامج الولاء"
+
   },
 
   "app_title": "سوبرداو",
