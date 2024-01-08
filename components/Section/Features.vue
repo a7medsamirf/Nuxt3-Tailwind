@@ -54,12 +54,12 @@
     <div class=" py-10 sm:py-8 lg:py-10">
   
         <!-- text - start -->
-        <h1
+        <h3
           class="flex justify-center items-center mb-4 text-2xl md:text-3xl lg:text-5xl font-extrabold tracking-tight leading-none text-gray-800 dark:text-white relative">
           <img src="/_nuxt/img/gradient-Bg.png" class="img-gradient w-56 lg:w-auto absolute z-[-1] block top-11" alt=""> 
           {{ $t("features.title") }}
            
-            </h1>
+            </h3>
         <!-- text - end -->
         <div class="flex justify-center py-10">
         <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-3 ">

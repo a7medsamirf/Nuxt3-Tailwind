@@ -29,11 +29,13 @@
 <template>
   <footer class="w-full py-4 px-4 sm:px-6 lg:px-8 mx-auto bg-gradient-to-r from-[#FFD600] to-[#FFB800]">
     <div class="container mx-auto ">
-      <div class="flex justify-center">
+      <div class="flex justify-around ">
         <!-- Grid -->
         <div class="grid grid-cols-1 md:grid-cols-3 items-center gap-5 text-center ">
-
-          <img src="/Logo-Full-Black.png" class="flex-none" alt="" />
+          <div class="text-center flex justify-center md:justify-between">
+            <img src="/Logo-Full-Black.png" class="flex-none" alt="" />
+          </div>
+       
 
           <!-- End Col -->
 
