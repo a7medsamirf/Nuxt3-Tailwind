@@ -9,11 +9,12 @@ const availableLocales = computed(() => {
 
 <template>
   <NuxtLink
-    class="font-bold text-gray-600 dark:text-white font-ARFont"
+    class="font-bold text-gray-600 dark:text-white font-ARFont flex"
     v-for="locale in availableLocales"
     :key="locale.code"
     @click.prevent.stop="setLocale(locale.code)"
     :to="switchLocalePath(locale.code)"
     >{{ locale.name }}
+    <img src="/img/svg/globe.svg" class="flex-none" alt="" />
   </NuxtLink>
 </template>

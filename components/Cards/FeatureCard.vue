@@ -14,10 +14,10 @@ defineProps({
       <img  class="" :src="image" :alt="title" />
     </div>
     <div class="ms-3">
-      <h3 class="text-gray-800 font-semibold dark:text-primary-color">
+      <h3 class="text-lg font-semibold text-gray-800 dark:text-primary-color">
         {{$t('features.' + title)}}
       </h3>
-      <p class="mt-2 text-sm text-gray-700 dark:text-gray-400">
+      <p class="mt-2 text-base font-normal text-gray-700 dark:text-gray-300">
         {{$t('features.' + subtitle)}}
       </p>
     </div>

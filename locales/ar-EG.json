@@ -37,10 +37,20 @@
     "Raise-funds": "جمع الأموال، وتخصيص الموارد",
     "Form-freelancer": "تشكيل النقابات المستقلة",
     "Reinvent-loyalty": "إعادة اختراع برامج الولاء"
-
+  },
+  "Superpower": {
+    "title": "احصل على قوى DAO الخارقة",
+    "Give-equity":  "منح الأسهم للمساهمين",
+    "Raise-funds": "جمع الأموال باستخدام الرموز المميزة و NFTS",
+    "Make-decisions": "اتخاذ القرارات معًا",
+    "Operate-globally":   "العمل على مستوى العالم"
   },
 
   "app_title": "سوبرداو",
   "home_title": "الرئيسية"
 
   }
+
+ 
+
+

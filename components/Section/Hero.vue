@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-  <div>
+
     <section
       id="hero"
       class="h-screen grid content-center bg-white relative dark:bg-[url('/img/BGStars.png')]"
@@ -36,5 +36,5 @@
         </div>
       </div>
     </section>
-  </div>
+
 </template>

@@ -12,8 +12,10 @@ const imgAPI = {
     ],
     Socialimg:[
       '/img/svg/email.svg',
-      '/img/svg/telegram.svg',
+      '/img/svg/instagram.svg',
       '/img/svg/twitter.svg',
+      '/img/svg/facebook.svg',
+      '/img/svg/linkedin.svg'
     ]
 
   }

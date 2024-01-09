@@ -50,34 +50,31 @@
 </script>
 
 <template>
-  <div>
-    <div class=" py-10 sm:py-8 lg:py-10">
-  
-        <!-- text - start -->
-        <h3
-          class="flex justify-center items-center mb-4 text-2xl md:text-3xl lg:text-5xl font-extrabold tracking-tight leading-none text-gray-800 dark:text-white relative">
-          <img src="/_nuxt/img/gradient-Bg.png" class="img-gradient w-56 lg:w-auto absolute z-[-1] block top-11" alt=""> 
-          {{ $t("features.title") }}
-           
-            </h3>
-        <!-- text - end -->
-        <div class="flex justify-center py-10">
-        <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-3 ">
 
+    <section class="py-16 md:py-24 relative">
+      <div class="container mx-auto relative">
+          <div class="section-title grid grid-cols-1 pb-10 text-center">
+                  <!-- text - start -->
+        <h3 class="flex justify-center items-center text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-800 dark:text-white ">
+          <img src="/img/gradient-Bg.png" class="img-gradient w-56 lg:w-auto absolute z-[-1] block top-5" alt=""> 
+          {{ $t("features.title") }} </h3>
+        <!-- text - end -->
+          </div>
+          <div class="flex justify-center">
+        <div class="grid sm:grid-cols-2 xl:grid-cols-3 mt-10 gap-4">
+    
           <!-- feature - start -->
-          <div class="gap-4 rounded-lg" v-for="(feature, index) in FeatureData" :key="index">
+          <div class="rounded-lg relative" v-for="(feature, index) in FeatureData" :key="index">
             <FeatureCard :image="feature.image" :feature="feature" :title="feature.title"
               :subtitle="feature.subtitle" />
-
-
           </div>
           <!-- feature - end -->
 
-
+        </div>
         </div>
       </div>
-    </div>
-  </div>
+    </section>
+
 </template>
 
 <style lang="scss" scoped>
