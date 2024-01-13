@@ -16,7 +16,9 @@ const description = ref("My amazing site.");
     <Superpowers />
     <Features />
 
-    <Backed />
+
+    <Idea />
+    <Partners />
 <!-- 
     <Title
           :head="$t('contacts.Get-In-Touch')"

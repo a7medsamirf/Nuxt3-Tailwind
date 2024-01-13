@@ -15,7 +15,17 @@ const imgAPI = {
       '/img/svg/instagram.svg',
       '/img/svg/twitter.svg',
       '/img/svg/facebook.svg',
-      '/img/svg/linkedin.svg'
+      '/img/svg/linkedin.svg',
+      '/img/svg/send.svg'
+    ],
+    Partnerimg:[
+      '/img/partners/amazon.svg',
+      '/img/partners/google.svg',
+      '/img/partners/lenovo.svg',
+      '/img/partners/paypal.svg',
+      '/img/partners/shopify.svg',
+      '/img/partners/spotify.svg',
+
     ]
 
   }

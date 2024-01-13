@@ -45,6 +45,16 @@
     "Make-decisions": "Make decisions together",
     "Operate-globally": "Operate globally"
   },
+  "Idea":{
+    "title": "What's your DAO idea ?",
+    "subtitle": "Let’s chat and see how we can help",
+    "Telegram": "Telegram",
+    "Twitter": "Twitter",
+    "Email": "Email"
+  },
+  "partners":{
+    "title": "Our partners in success"
+  },
   "app_title": "Superdao",
   "home_title": "Home"
 

@@ -39,7 +39,7 @@
 
 <template>
   <footer class="bg-gradient-to-r from-[#FFD600] to-[#FFB800]">
-    <div class="py-[25px] px-0 border-t border-slate-800">
+    <div class="py-[25px] px-0 border-t border-slate-400">
     <div class="container mx-auto relative">
       <div class="flex justify-around ">
         <!-- Grid -->
@@ -69,7 +69,7 @@
             <a class="h-8 w-8 mx-1 cursor-pointer inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[15px] text-center border border-gray-800 dark:border-slate-800 rounded-xl hover:border-orange-500 dark:hover:border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 text-slate-300 hover:text-white"
              v-for="(social, index) in SocialData "
               :key="index" target="_blank">
-              <img class="" :src="social.image" />
+              <img class="opacity-70" :src="social.image" />
             </a>
 
           </div>
