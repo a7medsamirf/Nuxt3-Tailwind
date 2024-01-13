@@ -18,8 +18,7 @@
     title: "Idea.Email",
     subtitle: "hello@superdao.co",
     image: imgAPI.Socialimg[0],
-    BgColor: 'bg-gradient-to-b from-[#ffffff26] to-[#161d24]',
-    Color: 'text-white'
+    BgColor: 'bg-gradient-to-b from-[#FFD600] to-[#FFB800]'
 },
 ]);
 </script>
@@ -46,7 +45,7 @@
  
         <div class="flex justify-center">
         <div class="grid sm:grid-cols-2 xl:grid-cols-3 mt-10 gap-4">
-            <div v-for="(idea, index) in IdeaData" :key="index" :class="[idea.BgColor, 'rounded-lg', 'p-4', 'relative', idea.Color]">
+            <div v-for="(idea, index) in IdeaData" :key="index" :class="[idea.BgColor, 'rounded-lg', 'p-4', 'relative']">
                 <div class="flex ">
                     <div class="text-orange-500 rounded-xl flex align-middle justify-center items-center w-[52px] h-[52px] bg-[#0003]">
                     <img  class="opacity-70 w-[30px] flex-shrink-0 " :src="idea.image" />
