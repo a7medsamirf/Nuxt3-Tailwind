@@ -40,7 +40,8 @@ const localePath = useLocalePath()
         <Logo />
 
 
-        <div class="sm:hidden">
+        <div class="sm:hidden flex items-center">
+          <button class="mx-5"><ThemeSwitcher  /></button>
           <button type="button"
             class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-gray-700 dark:text-white dark:hover:bg-white/10 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
             data-hs-collapse="#navbar-with-mega-menu" aria-controls="navbar-with-mega-menu"
@@ -69,7 +70,7 @@ const localePath = useLocalePath()
         <NavLinks />
         <LangSwitcher />
 
-          <ThemeSwitcher />
+          <ThemeSwitcher class="hidden sm:block" />
         </div>
       </div>
     </nav>
