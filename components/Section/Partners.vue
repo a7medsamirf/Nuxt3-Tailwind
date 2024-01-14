@@ -17,14 +17,14 @@
         <!-- text - start -->
         <h3
           class="flex justify-center items-center text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-800 dark:text-white ">
-          <img src="/img/gradient-Bg.png" class="img-gradient w-56 lg:w-auto absolute z-[-1] block top-5" alt="">
+          <img src="/img/gradient-Bg.png" class="img-gradient w-56 lg:w-[400px] absolute z-[-1] block top-7" alt="">
           {{ $t("partners.SectionTitle") }}
 
         </h3>
         <!-- text - end -->
       </div>
 
-      <div class="grid md:grid-cols-6 grid-cols-2 justify-center gap-[30px]">
+      <div class="grid md:grid-cols-6 grid-cols-3 justify-center gap-[30px]">
         <div class="mx-auto py-4" v-for="(partner, index) in PartnerData" :key="index">
         <img  class="h-6" :src="partner.image" :alt="title" />
         </div>

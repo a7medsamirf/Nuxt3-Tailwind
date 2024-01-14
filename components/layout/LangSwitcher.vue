@@ -15,6 +15,6 @@ const availableLocales = computed(() => {
     @click.prevent.stop="setLocale(locale.code)"
     :to="switchLocalePath(locale.code)"
     >{{ locale.name }}
-    <img src="/img/svg/globe.svg" class="flex-none" alt="" />
-  </NuxtLink>
+<!--     <img src="/img/svg/globe.svg" class="flex-none" alt="" />
+ -->  </NuxtLink>
 </template>

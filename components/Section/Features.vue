@@ -51,12 +51,13 @@
 
 <template>
 
-    <section class="py-16 md:py-24 relative">
+
+    <section class="py-16 md:py-24 relative after:content-[url('img/Element/Element-3.png')] after:absolute after:z-n1  after:bottom-0 after:left-0">
       <div class="container mx-auto relative">
           <div class="section-title grid grid-cols-1 pb-10 text-center">
                   <!-- text - start -->
         <h3 class="flex justify-center items-center text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-800 dark:text-white ">
-          <img src="/img/gradient-Bg.png" class="img-gradient w-56 lg:w-auto absolute z-[-1] block top-5" alt=""> 
+          <img src="/img/gradient-Bg.png" class="img-gradient w-56 lg:w-[400px] absolute z-[-1] block top-7" alt=""> 
           {{ $t("features.SectionTitle") }} </h3>
         <!-- text - end -->
           </div>

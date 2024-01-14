@@ -14,7 +14,7 @@
   },
   "Hero": {
     "SectionTitle": "Start a DAO in seconds",
-    "SectionSubtitle": "An easy step-by-step process to start, manage, and grow a decentralized autonomous organization",
+    "SectionSubtitle": "An easy step-by-step process to start, manage,and grow a decentralized autonomous organization",
     "button": "Get early access"
   },
   "features": {
@@ -47,7 +47,7 @@
   },
   "Idea":{
     "SectionTitle": "What's your DAO idea ?",
-    "subtitle": "Let’s chat and see how we can help",
+    "SectionSubtitle": "Let’s chat and see how we can help",
     "Telegram": "Telegram",
     "Twitter": "Twitter",
     "Email": "Email"
