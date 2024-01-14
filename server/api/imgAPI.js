@@ -18,6 +18,11 @@ const imgAPI = {
       '/img/svg/linkedin.svg',
       '/img/svg/send.svg'
     ],
+    Learnmoreimg:[
+      '/img/Learnmore/1.png',
+      '/img/Learnmore/2.png',
+      '/img/Learnmore/2.png'
+    ],
     Partnerimg:[
       '/img/partners/amazon.svg',
       '/img/partners/google.svg',

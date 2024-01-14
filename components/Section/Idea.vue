@@ -1,6 +1,6 @@
 <script setup>
  import imgAPI from '~/server/api/imgAPI'
- const IdeaData = ref([
+ const IdeaData = ([
    {
     title: "Idea.Telegram",
     subtitle: "@Superdao",
@@ -30,12 +30,13 @@
         <h3
           class="flex justify-center items-center text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-800 dark:text-white ">
           <img src="/img/gradient-Bg.png" class="img-gradient w-56 lg:w-auto absolute z-[-1] block top-5" alt="">
-          {{ $t("Idea.title") }}
+          {{ $t("Idea.SectionTitle") }}
 
         </h3>
 
         <p class="m-5 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400" >
-          {{ $t("Idea.subtitle") }}
+          {{ $t("Idea.SectionSubtitle") }}
+
         </p>
         <!-- text - end -->
       </div>
@@ -55,14 +56,11 @@
                    {{ $t(idea.title) }} 
                     </h3>
                     <p class="mt-2 text-base font-normal text-gray-700 dark:text-[#10151A]">
-                      {{ $t(idea.subtitle) }} 
+                      {{ idea.subtitle }}
                     </p>
                     </div>
                 </div>
                 </div>
-           
-
-
         </div>
         </div>
 

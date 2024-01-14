@@ -78,3 +78,40 @@ const localePath = useLocalePath()
   
 
 </template>
+
+<!-- <template>
+  <header :class="{ 'sticky': isSticky }" class="bg-gray-800 text-white py-4 transition-all duration-500">
+ 
+    <nav class="container mx-auto">
+   
+    </nav>
+  </header>
+</template>
+
+<script setup>
+import { ref, onMounted, onBeforeUnmount } from 'vue';
+
+const isSticky = ref(false);
+
+const handleScroll = () => {
+  isSticky.value = window.scrollY > 100; 
+};
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener('scroll', handleScroll);
+});
+</script>
+
+<style scoped>
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+</style>
+ -->

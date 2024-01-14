@@ -14,14 +14,14 @@ const SuperpowerData = [
                   <!-- text - start -->
         <h3 class="flex justify-center items-center mb-4 text-2xl md:text-3xl lg:text-4xl font-extrabold  text-gray-800 dark:text-white relative">
           <img src="/img/gradient-Bg.png" class="img-gradient w-56 lg:w-auto absolute z-[-1] block top-5" alt=""> 
-          {{ $t("Superpower.title") }} </h3>
+          {{ $t("Superpower.SectionTitle") }} </h3>
         <!-- text - end -->
           </div>
   
           <div class="flex justify-center">
                 <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 items-center mt-10 gap-10">
                     <div class="relative">
-                        <img class="w-3/4 lg:w-auto hidden sm:block" src="/img/Img_1.png" alt="">
+                        <img class="w-[400px] " src="/img/Img_1.png" alt="">
                     </div>
                     <div class="relative">
              

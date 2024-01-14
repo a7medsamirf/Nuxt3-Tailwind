@@ -12,13 +12,13 @@
     "About":"About Us",
     "Roadmapclub":"Roadmap club"
   },
-  "HeroSection": {
-    "title": "Start a DAO in seconds",
-    "subtitle": "An easy step-by-step process to start, manage, and grow a decentralized autonomous organization",
+  "Hero": {
+    "SectionTitle": "Start a DAO in seconds",
+    "SectionSubtitle": "An easy step-by-step process to start, manage, and grow a decentralized autonomous organization",
     "button": "Get early access"
   },
   "features": {
-    "title": "Change every industry sector",
+    "SectionTitle": "Change every industry sector",
     "DeFi": "DeFi",
     "Investment": "Investment",
     "Creators": "Creators",
@@ -39,21 +39,30 @@
     "Reinvent-loyalty": "Reinvent loyalty programs"
   },
   "Superpower": {
-    "title": "Get DAO superpowers",
+    "SectionTitle": "Get DAO superpowers",
     "Give-equity": "Give equity to contributors",
     "Raise-funds": "Raise funds with tokens & NFTs",
     "Make-decisions": "Make decisions together",
     "Operate-globally": "Operate globally"
   },
   "Idea":{
-    "title": "What's your DAO idea ?",
+    "SectionTitle": "What's your DAO idea ?",
     "subtitle": "Let’s chat and see how we can help",
     "Telegram": "Telegram",
     "Twitter": "Twitter",
     "Email": "Email"
   },
+  "Learnmore":{
+    "SectionTitle": "Learn More",
+    "guide": "Beginners guide",
+    "stories": "Success stories",
+    "Directory": "Directory",
+    "Briefing": "DAO Briefing from The Generalist",
+    "largest": "The largest DAOs by cap on Deepdao.io",
+    "ecosystem": "Twitter lists for DAO ecosystem by Guild"
+  },
   "partners":{
-    "title": "Our partners in success"
+    "SectionTitle": "Our partners in success"
   },
   "app_title": "Superdao",
   "home_title": "Home"

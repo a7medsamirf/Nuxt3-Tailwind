@@ -16,7 +16,7 @@ const description = ref("My amazing site.");
     <Superpowers />
     <Features />
 
-
+    <Learnmore />
     <Idea />
     <Partners />
 <!-- 
