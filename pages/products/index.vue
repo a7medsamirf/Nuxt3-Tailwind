@@ -1,21 +1,8 @@
 <script setup>
-const title = ref("Hello World");
-useHead({
-  title: "Nuxt Whisper | Products",
-  meta: [
-    {
-      name: "description",
-      content: "List of products",
-    },
-  ],
-});
+const data = await fetch('https://dummyjson.com/products',{lazy: false,})
+                     .then(res => res.json())
+                     .then(data => data.products)  // json data Name
 
-const { pending, data: products, refresh } = useFetch(
-  "https://fakestoreapi.com/products",
-  {
-    lazy: false,
-  }
-);
 /*     // api استدعاء البيانات التى اريد عرضها فقط من ملف (object )
         const { pending, data: products} = useFetch(
         "https://fakestoreapi.com/products",
@@ -41,27 +28,32 @@ const { pending, data: products, refresh } = useFetch(
         ); */
 </script>
 <template>
-  <div>
-    <div class="container mx-auto mt-10">
-      <div v-if="pending">
-        <p>Loading...</p>
-      </div>
-      <div v-else>
-        <button
-          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-          @click="refresh"
-        >
-          Refresh Data
-        </button>
 
-        <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-          <div v-for="p in products" :key="p.id">
-            <product-card :product="p" />
-          </div>
-        </div>
+<section class="py-16 md:py-24 relative">
+    <div class="container mx-auto relative">
+      <div class="section-title grid grid-cols-1 pb-10 text-center">
+        <!-- text - start -->
+        <h3 class="flex justify-center items-center text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-800 dark:text-white ">
+          <img src="/img/gradient-Bg.png" class="img-gradient w-56 lg:w-[400px] absolute z-[-1] block top-7" alt="">
+       منتجاتنا
+        </h3>
+        <!-- text - end -->
       </div>
+
+    
+        <div class="grid sm:grid-cols-2 xl:grid-cols-4 mt-10 gap-4">
+            <div v-for="(product, index) in data" :key="index" class="product rounded-lg relative">
+              <product-card :product="product" />
+                </div>
+        </div>
+
+
+
     </div>
-  </div>
+
+  </section>
+
+
 </template>
 
 <style lang=""></style>

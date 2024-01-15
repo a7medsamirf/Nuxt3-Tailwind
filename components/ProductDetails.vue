@@ -3,7 +3,7 @@
       <div class="grid md:grid-cols-2 gap-4 lg:gap-10">
         <div class="p-7">
           <img
-            :src="product.image"
+            :src="product.images"
             alt="product img"
             class="mx-auto my-7 max-w-[400px] md:max-w-full lg:max-w-[400px]"
           />

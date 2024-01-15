@@ -1,7 +1,7 @@
 <script setup>
 const route = useRoute();
 const { id } = route.params;
-const url = `https://fakestoreapi.com/products/${id}`;
+const url = `https://dummyjson.com/products/${id}`;
 
 //  fetch the product
 const { data: product } = await useFetch(url);

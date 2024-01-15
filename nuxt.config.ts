@@ -49,6 +49,7 @@ export default defineNuxtConfig({
     transpile: ["@heroicons/vue", "@headlessui/vue"],
   },
  */
+
   modules: [
         'nuxt-icon',
         '@nuxt/image',

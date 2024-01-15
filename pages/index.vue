@@ -1,6 +1,5 @@
 <script setup lang="ts">
-const localPath = useLocalePath();
-const title = ref("Hello World");
+const title = ref("الصفحة الرئيسية");
 const description = ref("My amazing site.");
 </script>
 
@@ -12,10 +11,8 @@ const description = ref("My amazing site.");
     </Head>
 
     <Hero />
-
     <Superpowers />
     <Features />
-
     <Learnmore />
     <Idea />
     <Partners />
