@@ -2,10 +2,10 @@
 useHead({
   // as a string,
   // where `%s` is replaced with the title
-  titleTemplate: "%s - Site Title",
+  titleTemplate: "%s - سوبرداو",
   // ... or as a function
   titleTemplate: (productCategory) => {
-    return productCategory ? `${productCategory} - Site Title` : "Site Title";
+    return productCategory ? `${productCategory} - سوبرداو` : "سوبرداو";
   },
 });
 </script>

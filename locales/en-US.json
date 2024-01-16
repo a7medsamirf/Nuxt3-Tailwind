@@ -17,6 +17,17 @@
     "SectionSubtitle": "An easy step-by-step process to start, manage,and grow a decentralized autonomous organization",
     "button": "Get early access"
   },
+  "Creators":{
+    "SectionTitle": "Superpowers for creators",
+    "Formations": "Formations",
+    "StartePack": "Starte Pack",
+    "AppEcosystem": "App Ecosystem",
+    "TemplateBased": "Template-based DAO creation in one click",
+    "MemberDirectory": "Member directory and contributor rewards",
+    "ThirdParty": "Third party apps for every need"
+
+
+  },
   "features": {
     "SectionTitle": "Change every industry sector",
     "DeFi": "DeFi",

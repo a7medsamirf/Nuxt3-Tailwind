@@ -48,7 +48,7 @@
         <div class="grid sm:grid-cols-2 xl:grid-cols-3 mt-10 gap-4">
             <div v-for="(idea, index) in IdeaData" :key="index" :class="[idea.BgColor, 'rounded-lg', 'p-4', 'relative']">
                 <div class="flex ">
-                    <div class="text-orange-500 rounded-xl flex align-middle justify-center items-center w-[52px] h-[52px] bg-[#0003]">
+                    <div class="text-orange-500 rounded-xl flex align-middle justify-center items-center w-[52px] h-[52px] bg-[rgba(0,0,0,0.2)]">
                     <img  class="opacity-70 w-[30px] flex-shrink-0 " :src="idea.image" />
                     </div>
                     <div class="ms-3">

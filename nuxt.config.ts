@@ -89,7 +89,7 @@ export default defineNuxtConfig({
         {
           code: "en",
           iso: "en-US",
-          name: "English(US)",
+          name: "English",
           file: "en-US.json",
           dir: 'ltr',
           icon: 'flag-en.svg'
@@ -97,7 +97,7 @@ export default defineNuxtConfig({
         {
           code: 'ar',
           iso: 'ar-AR',
-          name: 'Arabic(EG)',
+          name: 'عربى',
           file: 'ar-EG.json',
           dir: 'rtl',
           icon: 'flag-ar.svg'

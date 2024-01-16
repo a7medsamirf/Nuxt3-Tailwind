@@ -35,7 +35,7 @@
 
     <h3 class="mt-4 text-lg font-medium text-gray-800 dark:text-white ">    {{ product.title }}</h3>
 
-    <p class="mt-1.5 text-sm text-gray-700 dark:text-gray-300">$ {{ product.price }} </p>
+    <p class="mt-1.5 text-sm text-gray-700 dark:text-gray-400">$ {{ product.price }} </p>
 
     <form class="mt-4">
       <NuxtLink :to="localePath(`/products/${product.id}`)"

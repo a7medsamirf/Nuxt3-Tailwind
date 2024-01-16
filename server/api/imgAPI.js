@@ -10,6 +10,11 @@ const imgAPI = {
       '/img/feature/Icon_prof.svg',
       '/img/feature/Icon_Corpor.svg',
     ],
+    Creatorimg:[
+      '/img/creators/Icon_feature_1.svg',
+      '/img/creators/Icon_feature_2.svg',
+      '/img/creators/Icon_feature_3.svg'
+    ],
     Socialimg:[
       '/img/svg/email.svg',
       '/img/svg/instagram.svg',
@@ -21,7 +26,7 @@ const imgAPI = {
     Learnmoreimg:[
       '/img/Learnmore/1.png',
       '/img/Learnmore/2.png',
-      '/img/Learnmore/2.png'
+      '/img/Learnmore/3.png'
     ],
     Partnerimg:[
       '/img/partners/amazon.svg',
