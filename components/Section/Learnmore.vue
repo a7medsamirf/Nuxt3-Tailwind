@@ -47,7 +47,7 @@ const LearnmoreData = ref([
             class="rounded-lg relative"
           >
             <div
-              class="bg-white border border-gray-200 rounded-lg dark:bg-dark-card dark:border-dark-border"
+              class="bg-white border border-gray-200 rounded-lg dark:bg-dark-card dark:border-dark-border w-auto"
             >
               <img
                 alt="Office"

@@ -12,6 +12,7 @@ const description = ref("My amazing site.");
 
     <Hero />
     <Creators />
+    <AppTable />
     <Superpowers />
     <Features />
     <Learnmore />
